@@ -1,0 +1,79 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.img-slide{
+    width: 100%;
+    max-height: 810px;
+}
+
+#cabecalho .nav.nav-pills .nav-link.active{
+    background-color: #fff;
+    color: #003628;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand, 
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-brand{
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Pacifico, cursive;
+}
+
+.section-title span{
+    color: rgb(247, 203, 8);
+}
+
+.text-colored{
+    color: rgb(247, 203, 8);
+}
+
+#sobre-o-restaurante, #cardapio {
+    background-color: #d1e2de;
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: rgb(247, 203, 8);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #003628;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+}
+
+#btn-submit{
+    color: #fff;
+    margin-top: 1rem;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
